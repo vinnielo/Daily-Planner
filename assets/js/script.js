@@ -22,11 +22,15 @@ $(document).ready(function () {
       //compare time attr with current hour value
       if (getCurrentHourValue > timeAttr) {
         $targetBlock.find(".description").addClass("past");
-      } else if (getCurrentHourValue < timeAttr) {
+      } 
+       if (getCurrentHourValue < timeAttr) {
         $targetBlock.find(".description").addClass("future");
-      } else if (getCurrentHourValue === timeAttr) {
+      }  
+      if (getCurrentHourValue == timeAttr) {
         $targetBlock.find(".description").addClass("present");
       }
+      console.log(getCurrentHourValue)
+      console.log(timeAttr)
       var txt = document.getElementById(`hour-${i+9}`);
       txt.childNodes[3].textContent = planner[`hour-${i+9}`];
 
