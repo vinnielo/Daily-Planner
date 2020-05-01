@@ -6,6 +6,6 @@ It will also display the current day and time. It will gray out any past tasks n
 
 images:
  ![main page](images/dailyplanner.png);
- ![add a task](images/addedtask.png);
+ ![add a task](images/addedtask.PNG);
  ![save the task](images/highlightsavebutton.png);
  ![task competed? remove and save](images/removetaskandsave.png)
