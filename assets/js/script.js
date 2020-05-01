@@ -1,8 +1,8 @@
-var planner = localStorage.getItem('planner')? JSON.parse(localStorage.getItem("planner")) : {};
+var planner = localStorage.getItem("planner")?JSON.parse(localStorage.getItem("planner")) : {};
 console.log(planner)
 //add ready event listener to the document
 $(document).ready(function () {
-  console.log("document is ready to go!");
+//   console.log("document is ready to go!");
   //render the current time
   var getCurrentTime = function () {
     var currentTime = moment().format("LLLL");
