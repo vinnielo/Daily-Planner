@@ -4,6 +4,8 @@ Daily planner allows for scheduling of any events or to do's in a given day. Bas
 
 It will also display the current day and time. It will gray out any past tasks not completed and highlight current and future tasks due. 
 
+url: vinnielogithub.io/Daily-Planner
+
 images:
  ![main page](images/dailyplanner.png);
  ![add a task](images/addedtask.PNG);
